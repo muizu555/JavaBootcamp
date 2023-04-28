@@ -1,0 +1,17 @@
+.How many fields does the Point have?
+  2
+
+• How many fields does the MovingPoint have?
+  2
+
+• How many methods does the Point have?
+  ３(include 1 constructor)
+
+• How many methods does the MovingPoint have?
+  ３(include 1 constructor)
+
+• What are the advantages that the solution to Problem C has over the solution to Problem B?
+　Methods with the same role can be omitted, reducing the amount of description.
+
+• Can you execute the following operation at the end of TestObjectApplication? And why?
+  ?

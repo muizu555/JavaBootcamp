@@ -1,0 +1,11 @@
+
+    double getDistance(MovingPoint m2){
+        int dx = m2.x - this.x;
+        int dy = m2.y - this.y;
+
+        return Math.sqrt(dx*dx + dy*dy);//double型で返る
+    }
+
+    void print(){//printは継承しなくていいの？
+        System.out.println("("+ x + ", "+ y + ")");
+    }
