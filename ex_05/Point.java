@@ -1,5 +1,5 @@
 class Point{
-    public int x;
+    public int x;  //変数の継承
     public int y;
 
     public Point(int x,int y){//ここでコンストラクトを用いて初期化

@@ -1,9 +1,9 @@
-class MovingPoint extends Point{ 
+class MovingPoint extends Point{//子クラスで必要な変数だけでいい
     private int vx;
     private int vy;
 
     public MovingPoint(int x,int y){//ここがコンストラクタ
-        super(x,y);//ここで継承している
+        super(x,y);//ここで継承している // superはコンストラクタ
     }
 
 

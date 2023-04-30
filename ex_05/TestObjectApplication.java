@@ -23,7 +23,7 @@ class TestObjectApplication{
         System.out.println(p1.getDistance(p2));
         System.out.println(m1.getDistance(m2));
 
-        System.out.println(p1.getDistance(m1));
+        System.out.println(p1.getDistance(m1));///m1,m2が問題
         System.out.println(p2.getDistance(m2));
    }
 }
