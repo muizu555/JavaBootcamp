@@ -1,0 +1,9 @@
+Q1 output is (x, y) = (100, 120)
+
+Because we rewrote the contents of the 
+object with p.setX(100) and p.setY(120).
+
+
+Q2 output is (x, y) = (100, 120)
+Because the original point does not
+point to the newly created (0,0) object.
