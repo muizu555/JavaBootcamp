@@ -1,0 +1,4 @@
+p1 and p2 have exactly the same coordinates, but are different objects, 
+so they behave like：
+p1 != p2
+p1 and p2 is not equal.
