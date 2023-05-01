@@ -1,11 +1,21 @@
+How many fields does the Point have?
+ 2
 
-    double getDistance(MovingPoint m2){
-        int dx = m2.x - this.x;
-        int dy = m2.y - this.y;
 
-        return Math.sqrt(dx*dx + dy*dy);//double型で返る
-    }
+How many fields does the MovingPoint have?
+ 4
 
-    void print(){//printは継承しなくていいの？
-        System.out.println("("+ x + ", "+ y + ")");
-    }
+
+How many methods does the Point have?
+ 3(include 1 constructer)
+
+
+How many methods does the MovingPoint have?
+ 5(include 1 constructer)
+
+
+Are there any fields with the same meaning in the Point and MovingPoint classes?
+ Yes
+
+Are there any methods in the Point and MovingPoint classes expressing similar behavior?
+ Yes
