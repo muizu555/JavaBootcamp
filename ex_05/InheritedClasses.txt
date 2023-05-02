@@ -14,4 +14,5 @@
 　Methods with the same role can be omitted, reducing the amount of description.
 
 • Can you execute the following operation at the end of TestObjectApplication? And why?
-  ここまじで大事そうだからしっかり理解すべし
+Yes,Because the MovingPoint class also has 
+the same type as the superclass Point class.
