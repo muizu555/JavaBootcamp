@@ -7,6 +7,7 @@ class Quadrangle extends Shape{
 
 
     public void print(){
+        super.print();
         for(int i = 0;i<P.length;i++){
             if (i>0) System.out.print("-");
             System.out.print("(" + P[i].x + ", " + P[i].y + ")");
