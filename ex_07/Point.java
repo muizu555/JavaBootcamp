@@ -26,4 +26,8 @@ public class Point implements Relatable{
         }
         else return false;
     }
+
+    public void print(){
+        System.out.println("("+x+", "+y+")");
+    }
 }
