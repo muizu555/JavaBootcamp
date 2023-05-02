@@ -5,18 +5,18 @@ public class Rectangle implements Relatable{
 
 
 
-    public Rectangle(Point p1,Point p3){
+    public Rectangle(Point p1,Point p3){//
         this.p1 = p1;
         this.p3 = p3;
-    }
-
-
-    public int getArea(){
         int dirx = this.p3.getX() - this.p1.getX();
         int diry = this.p3.getY() - this.p1.getY();
 
         this.S = dirx*diry;
     
+    }
+
+
+    public int getArea(){
         return S;
     }
 
