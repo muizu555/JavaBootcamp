@@ -3,10 +3,12 @@ In ClassB, the method "methodTwo(int i)" overrides
 the method "methodTwo(int i)" in the superclass ClassA. 
 
 • Which method hides a method in the superclass?
-In ClassB, the method "methodOne(int i)" hides 
-the method "methodOne(int i)" in the superclass ClassA.
+In ClassB, the method "methodFour(int i)" hides 
+the method "methodFour(int i)" in the superclass ClassA.
 
 • What do the other methods do?
 The method "methodThree(int i)" in ClassA is a static method and 
 the method "methodFour(int i)" in both classes are also static methods.
- They can be called without creating an instance of the class.
+They can be called without creating an instance of the class.
+
+compile error
