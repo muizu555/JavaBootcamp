@@ -1,8 +1,13 @@
-class Quadrangle extends Shape{
-    protected Point[] P;//
+class Parallelogram extends Shape{
+    protected Point[] P = new Point[4];
+    private int w;
 
-    public Quadrangle(Point p1, Point p2, Point p3, Point p4){
-        P = new Point[]{p1, p2, p3, p4};
+    public Parallelogram(Point p1, Point p3, int w){
+        //P = new Point[]{p1,p3};
+        P[0] = p1;
+        P[1] = new Point(p1.x + w,p1.y);//p2
+        P[2] = p3;
+        P[3] = new Point(p3.x-w,p3.y);//p4
     }
 
 
@@ -22,19 +27,13 @@ class Quadrangle extends Shape{
         }
     }
 
+    
+
+
+
+
+
+
+
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    

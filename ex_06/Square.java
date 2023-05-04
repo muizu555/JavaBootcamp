@@ -1,8 +1,12 @@
-class Quadrangle extends Shape{
-    protected Point[] P;//
+class Square extends Shape{
+    protected Point[] P = new Point[4];
+    private int w;
 
-    public Quadrangle(Point p1, Point p2, Point p3, Point p4){
-        P = new Point[]{p1, p2, p3, p4};
+    public Square(Point p1,int w){
+        P[0] = p1;
+        P[1] = new Point(p1.x + w,p1.y);//p2
+        P[2] = new Point(p1.x + w,p1.y+w);
+        P[3] = new Point(p1.x,p1.y+w);//p4
     }
 
 
@@ -21,20 +25,6 @@ class Quadrangle extends Shape{
             P[i].y = P[i].y + dy;
         }
     }
-
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-    

@@ -1,6 +1,6 @@
 class QuadrangleApplication{
    public static void main(String[] args){
-        Quadrangle q = new Quadrangle(
+        Quadrangle q = new Quadrangle(//has a 関係
                     new Point(0, 0),
                     new Point(4, 3),
                     new Point(1, 5),
