@@ -43,18 +43,18 @@ class SimpleList implements Aggregate{
         DeleteNode.getPrev().setNext(DeleteNode.getNext());
         DeleteNode.getNext().setPrev(DeleteNode.getPrev());
       }
+
    }
 
    void insert(int key){
       SimpleNode newNode = new SimpleNode(key);//コンスタンスをここで呼び出して
-      newNode.setPrev(nil.getPrev());
-      newNode.setNext(nil);//nilは一番最後だから(現時点で)
-      nil.getPrev().setNext(newNode);
-      nil.setPrev(newNode);
-      
+      newNode.setPrev(nil);//矢印
+      newNode.setNext(nil.getNext());
+      nil.setNext(newNode);
+      newNode.getNext().setPrev(newNode);
    }
 
-   public SimpleNode getNil(){
+   public SimpleNode getNil(){//printの助けどこが先頭か
      return nil;
    }
 

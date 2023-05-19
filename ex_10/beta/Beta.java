@@ -1,4 +1,4 @@
-//package ;
+package beta;
 import package_ag.*;
 //import ________;
 public class Beta extends Alpha{

@@ -19,7 +19,6 @@ class IteratorApplication{
                     list.delete(key);
                 }
         }
-
         trace(list.forwardIterator());
         trace(list.backwardIterator());
    }

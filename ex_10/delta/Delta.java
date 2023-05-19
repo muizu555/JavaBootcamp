@@ -1,6 +1,6 @@
-//package ________;
+package delta;
 import package_ag.*;
-//import ________;
+import beta.*;
 public class Delta{
    Alpha alpha = new Alpha();
    Beta beta = new Beta();
