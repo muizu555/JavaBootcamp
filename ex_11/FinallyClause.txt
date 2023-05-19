@@ -1,0 +1,10 @@
+1.
+Because the count is now 2, an exception is thrown, 
+and the catch statement that receives it is executed.
+
+2.
+Because the finally statement is always executed 
+at the end of every try-catch statement.
+
+3.
+Because out of while.
