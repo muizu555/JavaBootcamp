@@ -38,7 +38,7 @@ class DequeImplByDLL implements Deque{
         return n;
     }
 
-    public boolean empty(){
+    public boolean empty(){//この関数がわからない
         if(n<0){
             return true;
         }
