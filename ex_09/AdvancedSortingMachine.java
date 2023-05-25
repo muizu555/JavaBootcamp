@@ -7,9 +7,12 @@ class AdvancedSortingMachine extends SortingMachine{
 
     //public void setStrategy(Strategy s){ strategy = s; }
 
-    public void sort(int[] data){ 
+    public void sort(int[] data){
         System.out.println(strategy.getClass().getName());
-        System.out.println("time: "+System.currentTimeMillis()); 
+        long start = System.currentTimeMillis();
         strategy.sort(data);
+        long end = System.currentTimeMillis();
+        long time = end - start;
+        System.out.println("time: "+time); 
     }
 }
