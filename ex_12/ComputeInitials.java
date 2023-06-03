@@ -1,7 +1,14 @@
 class ComputeInitials{
     public static void main(String[] args){
-        String a = String.valueOf(args[0].charAt(0));
-        String b = String.valueOf(args[1].charAt(0));
-        System.out.println("My initials are: "+a+b);
+        String a = args[0];
+        String[] aSplit = a.split(" ");
+        StringBuilder initials = new StringBuilder();
+        for(int i = 0;i<aSplit.length;i++){
+            if(aSplit != null){
+                initials.append(aSplit[i].charAt(0));
+            }
+        }
+    
+        System.out.println("My initials are: "+initials);
     }
 }
