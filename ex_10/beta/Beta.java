@@ -1,6 +1,5 @@
 package beta;
 import package_ag.*;
-//import ________;
 public class Beta extends Alpha{
    private int y = 30;
    public void show(Gamma g){

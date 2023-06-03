@@ -1,5 +1,7 @@
 package package_b;
-import package_a.*;
+
+import package_a.A;
+
 public class B{
     public B(){
         A a = new A();

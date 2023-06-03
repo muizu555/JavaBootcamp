@@ -1,0 +1,25 @@
+final int a = 3; 
+final class Animal {
+
+} //finalでフィールドは値を変更できなくなり、クラスは継承できなくなる
+
+staticは同じクラスから生成したオブジェクトの場合、フィールドの値が同一になる
+staticメソッドは非staticメソッドでオーバーライドできない
+
+メンバについて：簡単に説明すると メンバとは、クラスに宣言されたフィールド とメソッドのことです。
+コンストラクタ は見た目がメソッドに似ていますが、メンバではありません。
+
+staticをつけたメソッドはオブジェクトを生成しなくても使える。他のオブジェクトから参照する時は、クラス名を
+指定する　　　B.get();<Bはクラス名>
+
+//class
+static int money = 0;
+printmoney(in,out) money = money + in - out
+
+//mainfile
+obj1.printmoney(1000,100);  //900
+obj2.printmoney(0,250);     //650
+0bj1.printmoney(300,800);   //150
+
+普通は毎回初期化される0に
+

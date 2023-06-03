@@ -1,6 +1,6 @@
 package package_ag;
 public class Alpha{
-   public int u = 30;
+   protected int u = 30;
    private int x = 120;
    int z = 86;//protect from subclass
    public void show(Gamma g){

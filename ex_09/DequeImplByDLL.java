@@ -46,5 +46,4 @@ class DequeImplByDLL implements Deque{
     }
 
 
-
 }

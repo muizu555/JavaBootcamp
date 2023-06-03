@@ -1,0 +1,14 @@
+3 from the front of the deque.
+4 from the back of the deque.
+9 from the front of the deque.
+9 from the back of the deque.
+3 from the top of the stack.
+5 from the top of the stack.
+11 from the top of the stack.
+8 from the top of the stack.
+1 from the top of the stack.
+100 from the front of the queue.
+101 from the front of the queue.
+102 from the front of the queue.
+300 from the front of the queue.
+301 from the front of the queue.

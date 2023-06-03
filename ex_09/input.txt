@@ -1,0 +1,39 @@
+deque insertFront 3
+deque insertFront 2
+deque insertFront 1
+deque insertBack 4
+deque insertBack 5
+deque removeFront
+deque removeFront
+deque removeBack
+deque front
+deque back
+deque insertFront 8
+deque insertFront 9
+deque removeBack
+deque removeBack
+deque removeBack
+deque front
+deque back
+stack push 1
+stack push 5
+stack push 3
+stack pop
+stack pop
+stack push 8
+stack push 11
+stack pop
+stack pop
+stack pop
+queue enqueue 100
+queue enqueue 101
+queue enqueue 102
+queue dequeue
+queue enqueue 300
+queue dequeue
+queue enqueue 301
+queue enqueue 302
+queue dequeue
+queue dequeue
+queue dequeue
+end

@@ -1,6 +1,7 @@
 package delta;
-import package_ag.*;
-import beta.*;
+import package_ag.Alpha;
+import package_ag.Gamma;
+import beta.Beta;
 public class Delta{
    Alpha alpha = new Alpha();
    Beta beta = new Beta();
